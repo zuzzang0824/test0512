@@ -1,0 +1,20 @@
+@charset "utf-8";
+nav{
+    width: 20vw;
+    height: 100vh;
+    float: left;
+    display: grid;
+    place-content: center;
+}
+header nav ul{
+    display: flex;
+    flex-direction: column;
+    position: unset;
+    height: 20vh;
+    border: none;
+}
+header nav ul li{
+    position: unset;
+    border-bottom: 1px solid #999;
+    padding: 10px;
+}
